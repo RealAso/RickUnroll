@@ -1,0 +1,1 @@
+A simple browser extension to find Rick Rolls and adds an indicator.

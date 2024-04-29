@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "RickUnroll",
+  "version": "1.0",
+
+  "description": "Finds Rickrolls in Hyperlinks",
+
+  "icons": {
+    "48": "icons/rick.jpg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*"],
+      "js": ["rickunroll.js"]
+    }
+  ]
+}
